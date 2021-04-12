@@ -34,7 +34,7 @@
   -o-transition: 1s ease-in;
 }
 .harley1:hover .harley {
-filter: brightness(60%) contrast(140%) hue-rotate(90deg) grayscale(50%);
+filter: brightness(60%) contrast(100%) hue-rotate(90deg) grayscale(50%);
   transition: ease 1s;transition-delay: 1s;
   background:#347939;
   mix-blend-mode: overlay;
