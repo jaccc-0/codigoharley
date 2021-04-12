@@ -1,0 +1,47 @@
+.harley1 {
+  width: 240px; 
+  height: 170px; 
+  outline: 1px solid #2b4032; 
+  outline-offset: -4px; 
+  margin: auto; 
+  transition: ease .8s;  
+  transition-delay: .8s;
+}
+.harley1 .harley { 
+  width: 240px; 
+  height: 170px; 
+  overflow: hidden; 
+  transition: ease .3s; 
+  transition-delay: .3s;
+}
+.ha-1 {
+  font-size: 7.5px; 
+  color: #fff; 
+  font-family: poppins; font-weight:300;
+  text-transform: uppercase; 
+  letter-spacing: 3px; 
+  width: 70px; 
+  position: relative; 
+  margin-top: 45px; 
+  padding: 2px; 
+  height: 30px; 
+  text-align: justify; 
+  line-height: 20px; 
+  margin-left: 85px; 
+  opacity: 0;  
+  transition: ease-in 1s; 
+  -webkit-transition: 1s ease-in; 
+  -o-transition: 1s ease-in;
+}
+.harley1:hover .harley {
+filter: brightness(60%) contrast(140%) hue-rotate(90deg) grayscale(50%);
+  transition: ease 1s;transition-delay: 1s;
+  background:#347939;
+  mix-blend-mode: overlay;
+}
+.harley1 .harley:hover .ha-1 {
+  opacity: 1;  
+  transition: ease-out 1s; 
+  -webkit-transition: 1s ease-out; 
+  -o-transition: 1s ease-out;
+}
