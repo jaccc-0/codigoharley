@@ -2,7 +2,7 @@
   width: 240px; 
   height: 170px; 
   outline: 1px solid #2b4032; 
-  outline-offset: -4px; 
+  outline-offset: -3px; 
   margin: auto; 
   transition: ease .8s;  
   transition-delay: .8s;
@@ -36,7 +36,8 @@
 .harley1:hover .harley {
 filter: brightness(60%) contrast(140%) hue-rotate(90deg) grayscale(50%);
   transition: ease 1s;transition-delay: 1s;
- 
+   outline: 1px solid #2b4032; 
+  outline-offset: -3px; 
 }
 .harley1 .harley:hover .ha-1 {
   opacity: 1;  
